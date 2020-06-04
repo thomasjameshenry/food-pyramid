@@ -1,0 +1,158 @@
+.pyramid{
+  text-align: center;
+}
+input {
+  text-align: center;
+  display: inline-block;
+  top: 15px;
+  color: white;
+  background-color: black;
+  width: 100px;
+  padding: 5px 16px;
+  font-size: 10px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 16px;
+}
+.button {
+  position: relative;
+  background-color: red; /* Green */
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: none;
+  font-size: 15px;
+  border-radius: 8px;
+}
+#Veg:hover .addVeg{
+  display: block;
+}
+#Veg:hover .subVeg{
+  display: block;
+}
+#Cereals:hover .addCereals{
+  display: block;
+}
+#Cereals:hover .subCereals{
+  display: block;
+}
+#Dairy:hover .addDairy{
+  display: block;
+}
+#Dairy:hover .subDairy{
+  display: block;
+}
+#Proteins:hover .addProteins{
+  display: block;
+}
+#Proteins:hover .subProteins{
+  display: block;
+}
+#Fats:hover .addFats{
+  display: block;
+}
+#Fats:hover .subFats{
+  display: block;
+}
+#top:hover .addSugar{
+  display: block;
+}
+#top:hover .subSugar{
+  display: block;
+}
+
+#myText{
+  width: 200px;
+  padding: 2px 7px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+#myText2{
+  width: 200px;
+  padding: 2px 7px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+#myText3{
+  width: 200px;
+  padding: 2px 7px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+#day{
+  text-align: center;
+  font-size: 32px;
+}
+#month{
+  text-align: center;
+  font-size: 32px;
+}
+#year{
+  text-align: center;
+  font-size: 32px;
+}
+#top {
+    border-bottom: 100px solid #ffff00;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#Fats {
+    border-bottom: 100px solid #ff0000;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 10px;
+    width: 200px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#Proteins {
+    border-bottom: 100px solid #ff00ff;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 10px;
+    width: 400px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#Dairy{
+    border-bottom: 100px solid #3366ff;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 600px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#Cereals {
+  position: relat;
+    border-bottom: 100px solid #33cccc;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 800px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#Veg {
+  position: relative;
+    border-bottom: 100px solid #33cc33;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 1000px;
+    margin-right:auto;
+    margin-left:auto;
+}

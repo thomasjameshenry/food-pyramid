@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="pyramid.css">
+
+</head>
+
+<body>
+  <script src="pyramid.js"></script>
+  <div class="wrapper">
+    <div class="dateInput">
+    <p>Please Enter Today's Date:</p>
+      <input type="text"
+             id="myText"
+             value="0">
+      <input type="text"
+             id = "myText2"
+             value="1">
+      <input type="text"
+             id = "myText3"
+             value="2020">
+
+      <button type="button"
+              onclick="myFunction()">
+        Submit
+    </button>
+    <p class="dateText">
+      <span id="day"></span><span id="month"></span><span id="year"></span>
+    </p>
+  </div>
+     <div class="pyramid">
+       <div id="top">
+         <button class="button addSugar" onclick="addbuttonClickSugar()">+</button>
+         <input type="text" id="sugarNum" value="0">
+         <button class="button subSugar" onclick="subbuttonClickSugar()">-</button>
+       </div>
+
+        <div id="Fats">
+          <button class="button addFats" onclick="addbuttonClickFats()">+</button>
+          <input type="text" id="fatsNum" value="0"></input>
+          <button class="button subFats" onclick="subbuttonClickFats()">-</button>
+       </div>
+
+       <div id="Proteins">
+         <button class="button addProteins" onclick="addbuttonClickProtein()">+</button>
+         <input type="text" id="proteinNum" value="0"></input>
+         <button class="button subProteins" onclick="subbuttonClickProtein()">-</button>
+       </div>
+
+        <div id="Dairy">
+         <button class="button addDairy" onclick="addbuttonClickDairy()">+</button>
+         <input type="text" id="dairyNum" value="0"></input>
+         <button class="button subDairy" onclick="subbuttonClickDairy()">-</button>
+        </div>
+
+
+        <div id="Cereals">
+         <button class="button addCereals" onclick="addbuttonClickCereal()">+</button>
+         <input type="text" id="cerealNum" value="0"></input>
+         <button class="button subCereals" onclick="subbuttonClickCereal()">-</button>
+        </div>
+        <div id="Veg">
+          <button class="button addVeg" onclick="addbuttonClickVeg()">+</button>
+        <div class = "VegInput"> <input type="text" id="vegNum" value="0"></input></div>
+         <button class="button subVeg" onclick="subbuttonClickVeg()">-</button>
+        </div>
+     </div><!-- Closes .pyramid -->
+  </div><!-- Closes .wrapper -->
+
+
+    </body>
+    </html>
